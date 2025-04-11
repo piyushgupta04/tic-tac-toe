@@ -85,7 +85,7 @@ let enableBox = () => {
     box.disabled = false;
     box.innerText = "";
     msg.classList.remove("bg-blue-400", "text-2xl");
-
+    box.classList.remove('text-sky-400')
     msg.classList.remove('block')
     msg.classList.add('hidden')
   }
