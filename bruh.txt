@@ -1,0 +1,10 @@
+npm install tailwindcss @tailwindcss/cli
+mkdir inputCSS && echo '@import "tailwindcss";' > ./inputCSS/input.css
+
+
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./inputCSS/input.css -o ./Style/output.css --watch",
+    "build": "npx tailwindcss -i ./inputCSS/input.css -o ./Style/output.css --minify"
+  },
+
+Add this shi* in curly braces!
