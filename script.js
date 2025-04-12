@@ -1,9 +1,9 @@
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset");
 let msg = document.getElementById("msg");
+let turnO = true; // tracking player
 
 // 19:00 Tic Tac Toe
-let turnO = true; // tracking player
 
 //winning patterns | use 2D array, array of arrays
 // eg
